@@ -23,6 +23,9 @@ function init(){
     let cero = document.getElementById("cero");
 
     //EVENTOS
+    cero.onclick = function(e){
+        resultado.textContent = resultado.textContent + "0"
+    }
     uno.onclick = function(e){
         resultado.textContent = resultado.textContent + "1"
     }
